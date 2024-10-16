@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 1em;
+    position: relative;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #f39c12;
+    color: #000;
+  }
+  
+  /* Hidden sections */
+  .section {
+    display: none;
+    padding: 2em;
+  }
+  
+  .section.visible {
+    display: block;
+  }
+  
+  /* Home Section Styling */
+  .home-content {
+    padding-top: 50px;
+  }
+  
+  .profile-photo {
+    width: 200px;
+    border-radius: 80%;
+  }
+  .logo-photo {
+    position: absolute; /* Allows the image to be positioned relative to its closest positioned ancestor */
+    top: 0; /* Aligns the image to the top */
+    left: 0; /* Aligns the image to the left */
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintains aspect ratio */
+    
+  }
+  
+  h1, h2 {
+    color: #f39c12;
+  }
+  #demo-section {
+    background-color: #87CEEB; /* Sky blue background */
+    color: #333; /* Dark text color */
+    text-align: center; /* Center the text */
+    padding: 40px; /* Space inside the section */
+    border-radius: 8px; /* Rounded corners */
+    margin: 20px; /* Space outside the section */
+}
+
+#demo-section h2 {
+    font-size: 32px; /* Font size for the title */
+    margin-bottom: 15px; /* Space below the title */
+}
+
+#demo-section p {
+    font-size: 18px; /* Font size for the paragraph */
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+.view-demo {
+    background-color: transparent; /* Transparent background */
+    border: 2px solid black; /* Black border */
+    color: black; /* Black text */
+    padding: 10px 20px; /* Space inside the button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.view-demo:hover {
+    background-color: black; /* Background changes to black on hover */
+    color: white; /* Text color changes to white on hover */
+}
+
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  
